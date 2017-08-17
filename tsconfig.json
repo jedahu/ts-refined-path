@@ -11,7 +11,8 @@
         "declaration": true,
         "outDir": "./dist",
         "target": "es6",
-        "moduleResolution": "node"
+        "moduleResolution": "node",
+        "module": "commonjs"
     },
     "include": ["./src/*.ts"],
     "exclude": []
