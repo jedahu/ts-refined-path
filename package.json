@@ -1,6 +1,6 @@
 {
   "name": "ts-refined-path",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Refined path types for Typescript",
   "main": "index.js",
   "types": "index.d.ts",

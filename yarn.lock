@@ -6,9 +6,9 @@
   version "8.0.23"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.23.tgz#c746697004782346594a0d755c34425bbf3014d2"
 
-ts-refined@^0.4.0:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/ts-refined/-/ts-refined-0.4.2.tgz#d6ebff42b58e73404eefc319d79bb55ddc2c5f83"
+ts-refined@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/ts-refined/-/ts-refined-0.5.0.tgz#850d51ac042641d8203a89b059ed9caa55b21078"
 
 typescript@^2.4.2:
   version "2.4.2"
