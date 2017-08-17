@@ -1,0 +1,17 @@
+{
+  "name": "ts-refined-path",
+  "version": "0.1.0",
+  "description": "Refined path types for Typescript",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": "git@github.com:jedahu/ts-refined-path.git",
+  "author": "Jeremy Hughes <jedahu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^8.0.23",
+    "ts-refined": "^0.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.2"
+  }
+}
