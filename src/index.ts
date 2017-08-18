@@ -1,7 +1,6 @@
 // #+TITLE: Refinements for paths
 
 import * as p from "path";
-import {Nil} from "ts-refined";
 import {Refined} from "ts-refined";
 import {Refinement} from "ts-refined";
 import {Tagged} from "ts-refined";
@@ -37,7 +36,7 @@ export class Rel implements Refinement<string> {
 
 // ** Helper types
 
-export type Path<A = Nil> = Refined<string, FPath & A>;
+export type Path<A = {}> = Refined<string, FPath & A>;
 
 
 // ** Retyped path functions
@@ -53,7 +52,7 @@ export const format : (o : p.ParsedPath) => Path = p.format as any;
 
 export const isAbsolute : <A>(s : Path<A>) => s is Path<Abs & A> = p.isAbsolute as any;
 
-export const join : <A extends Abs | Rel | Nil>(s : Path<A>, ...ss : Array<Path>) => Path<A> = p.join as any;
+export const join : <A extends Abs | Rel | {}>(s : Path<A>, ...ss : Array<Path>) => Path<A> = p.join as any;
 
 export const normalize : <A>(s : Path<A>) => Path<A> = p.normalize as any;
 
